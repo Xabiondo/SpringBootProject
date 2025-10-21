@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  black;
+    color: red;
+    padding: 1rem;
+    
+}
+.navbarLeft{
+    font-size: 2rem;
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+
+}
+.navbarCenter .navLinks{
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbarCenter .navLinks a{
+    margin-right: 2rem;
+}
+
+.navbarRight{
+    display: flex;
+    align-items: center ;
+}
